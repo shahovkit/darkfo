@@ -52,13 +52,15 @@ To use this, you'll need a few things:
 
 - A copy of Fallout 2 (already installed)
 
-- Python 2.7
+- Python 2.7 Installed via 'sudo apt install python2.7'
+
+- PIP 20.3.4 Installed via 'wget https://bootstrap.pypa.io/pip/2.7/get-pip.py' and 'sudo python2.7 get-pip.py'
 
 - [Pillow](https://pillow.readthedocs.io/en/4.0.x) (just `pip install pillow`)
 
 - [NumPy](http://www.numpy.org/) (Windows binaries available [here](http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy).)
 
-- The TypeScript compiler, installed via `npm install -g typescript` (you'll need [node.js](https://nodejs.org/en/)).
+- The TypeScript compiler v3.0.1, installed via `npm install -g typescript@v3.0.1` (you'll need [node.js](https://nodejs.org/en/)).
 
 You'll need an HTTP server to run (despite being all static content) due to the way browsers sandbox requests.
 If you're comfortable with setting up nginx, lighttpd, or Apache, go for that. If not, a simple way is to use Python:
