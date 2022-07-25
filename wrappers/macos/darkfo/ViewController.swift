@@ -49,7 +49,7 @@ final class ViewController: NSViewController {
 
   private func reload() {
     let req = URLRequest(url:
-      URL(string: "http://localhost:8000/play.html?\(urlParameter)")!
+      URL(string: "http://localhost:8000/index.html?\(urlParameter)")!
     )
     webView.load(req)
   }
