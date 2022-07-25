@@ -14,14 +14,14 @@ To use this, you'll need a few things:
 
 - [Pillow] and [NumPy] (Installed via `pip install -r requirements`)
 
-- NodeJS (Istalled via `npm install -g typescript@v3.0.1`).
+- (Optional) NodeJS (Istalled via `npm install -g typescript@v3.0.1`).
 
-- TypeScript compiler v3.0.1 (Istalled via `npm install -g typescript@v3.0.1`).
+- (Optional) TypeScript compiler v3.0.1 (Istalled via `npm install -g typescript@v3.0.1`).
 
 Open a command prompt inside the DarkFO directory, and then run:
 
     python2.7 setup.py path/to/Fallout2/installation/directory
 
-Then run `tsc` to compile the source code.
+(Optional) Then run `tsc` to compile the source code.
 
 - Also you need any html server (express e.g.) for sharing files in index.html
